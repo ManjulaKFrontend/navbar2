@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 5vh;   
+}
+.header{
+    display: flex;
+    background-color:black;
+   padding-left: 5px;
+   padding-right: 5px;    
+}
+.header i{
+    color: red;
+}
+
+.header li{
+    list-style-type: none;
+    margin-left: 5%;
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+   color:white;
+
+}
+.header li i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.h1 h1{
+    color:white;
+    font-size: 18px;
+    padding-left: 850px;
+    padding-top: 5px;
+    
+}
+.h1 h1:hover{
+    color: grey;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    margin-left: 500px;
+}
+.links li{
+    padding: 10px 20px 10px 20px;
+}
+.links li i{
+    color: white;
+
+}
+.links li i:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+    
+
+.nav-container{
+    width: 100%;
+    height: 15vh;
+    background-color:lightskyblue;
+
+   
+}
+.navbar{
+    width: 100%;
+    height: 7vh;
+    background-color:rgb(135, 148, 250);
+   justify-content:space-between;
+   
+   display: flex;
+   
+
+}
+.links{
+    list-style-type: none;
+    margin-left: 0%;
+    
+}
+.links li{
+    justify-content: space-evenly;
+  
+}
+.links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-left:50px ;
+    padding-right: 50px;
+}
+.links li a:hover{
+    cursor: pointer;
+    height: 10vh;
+    color:black;
+}
+.home{
+    list-style-type: none;
+    color: white;
+    background-color: red;
+    text-align: center;
+
+}
+.home :hover{
+    color: black;
+    background-color: grey;
+    cursor: pointer;
+    height: 7vh;
+}
+.blog{
+    list-style-type: none;
+    color: white;
+    background-color: navy;
+    text-align: center;
+}
+.blog :hover{
+    background-color: grey;
+    cursor: pointer;
+    height: 7vh;
+}
+.jia li{
+    margin-left: 10%;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.jia li a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    color: navy;
+    
+}
+.tech li{
+    margin-left: 10%;
+    list-style-type: none;
+    padding-top:10px;
+    height: 10px;
+    width: 200px;
+}
+.tech li a{
+    background-color:navy;
+    color: white;
+    text-decoration: none;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.follow{
+   margin-left: 55%;
+   margin-top: -2%;
+}
+.follow li{
+    list-style-type: none;  
+}
+.follow li a{
+    text-decoration: none;
+    padding:10px 20px 10px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    display: flex;
+    margin-left: 600px;
+
+}
+.icon li {
+    list-style-type: none;
+    padding-bottom:29%;   
+}
+.icon li a {
+    text-decoration: none;
+}
+.icon li i{
+   padding: 10px 20px 10px 20px;
+   color: black;
+}
+.icon li i:hover{
+    background-color:skyblue;
+    color:white;
+}
+.icon li a{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 70%;
+  
+    
+}
